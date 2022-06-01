@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header h1 {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    background-color: rgb(17, 124, 143);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+    font-weight: bolder;
+  }
+  
+ 
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+    
+    color: white;
+    background-image:rep;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 50vh;
+}
+
+img {
+    padding: px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.simg   {
+    background-image: url("https://images.unsplash.com/photo-1613375920388-f1f70f341f8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+  .container {
+    
+    top: 5%; left: 8%; /* Position the background text */
+        bottom: 10%; /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(80, 80, 80, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: 600px; /* Full width */
+        padding: 20px; /* Some padding */
+        margin:auto;
+}
+.form > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.button {
+    
+    padding: 15px;
+    background: rgba(17,124,143);
+    border-radius: 5px;
+    margin: 10px;
+    color:white;
+    font-size: 20px;
+    size: 50px;
+    border:none;
+    float: center;
+    width:30%;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #2196F3;
+}
+
+
+.table {
+    text-align: center;
+    
+}
+
+.signup {
+    float: right;
+}
+.form{
+    border: none;
+    padding: 10%;
+}
+
+.pic {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .pic .content {
+    position: absolute;
+top: 10%; left: 8%; /* Position the background text */
+    bottom: 10%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(80, 80, 80, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 600px; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .fcontent{
+    position: absolute;
+    top: 30%; left: 30%; /* Position the background text */
+        bottom: 10%; /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(80, 80, 80, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: 600px; /* Full width */
+        padding: 20px; /* Some padding */
+        margin:auto;
+
+  }
+  input[type="email"],input[type="text"], input[type="number"] , input[type="password"], textarea {
+      width:100%;
+      padding: 12px;
+      border: 1px solid black;
+      border-radius: 5px;
+}
+
+.table > h3 {
+    text-align: left;
+}
+
+.table > h1 {
+    font-size: 35px;
+}
+.topnav >  input[type="text"] , textarea{
+    text-align: left;
+    width: 15%;
+    border: 1px solid greenyellow;
+}
+
+.content > p {
+    padding: 20px;
+    padding-top: 10px;
+    
+}
+.ifm {
+    padding-left: 10%;
+    
+}
+ .hb {
+     
+    color: solid black;
+    background-color: #2196F3;
+    text-align: center;
+
+}
+
